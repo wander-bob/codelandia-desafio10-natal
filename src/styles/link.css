@@ -1,0 +1,14 @@
+a {
+  text-decoration: none;
+  padding: 1.4rem 3.2rem;
+  border-radius: .4rem;
+  background-color: var(--clr-red-900);
+  max-width: fit-content;
+}
+
+a>span {
+  color: var(--clr-white-100);
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
