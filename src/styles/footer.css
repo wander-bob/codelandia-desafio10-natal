@@ -1,0 +1,12 @@
+footer {
+  padding: 2.1rem 35.2rem;
+  background-color: var(--clr-red-100);
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul.icons {
+  display: flex;
+  list-style: none;
+  gap: 3.6rem;
+}
