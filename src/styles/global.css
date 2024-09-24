@@ -1,0 +1,22 @@
+:root {
+  font-family: "Archivo", sans-serif;
+  font-size: 62.5%;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --clr-red-100: #FFE9E8;
+  --clr-red-200: #FFD5D3;
+  --clr-red-900: #CD3C32;
+  --clr-black-100: #121214;
+  --clr-white-100: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  color: var(--clr-black-100);
+}
