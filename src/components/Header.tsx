@@ -8,9 +8,9 @@ export function Header() {
     <header>
       <div className="content">
         <img src={logoImg} alt="Santa Logo" />
-        <h1>
+        <h2>
           Uma <span>plataforma de doação</span> para espalhar alegria
-        </h1>
+        </h2>
         <p>Nessas festas de fim de ano mande um presente para a pessoa amada e compartilhe a alegria do Natal.</p>
         <Link content="Fazer uma doação" />
       </div>

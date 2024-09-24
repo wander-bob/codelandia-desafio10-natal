@@ -1,0 +1,35 @@
+main {
+  padding-inline: 35.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .count,
+main .presentation {
+  padding: 8rem 0;
+}
+
+main .count {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  text-align: center;
+}
+
+main .count h1 {
+  color: var(--clr-red-900);
+  font-size: 6.4rem;
+  font-weight: 600;
+}
+
+main .count .content p {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+main .presentation {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
