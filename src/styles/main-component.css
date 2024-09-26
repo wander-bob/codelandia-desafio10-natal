@@ -8,10 +8,10 @@ main {
 main .count,
 main .presentation {
   padding: 8rem 0;
+  display: flex;
 }
 
 main .count {
-  display: flex;
   flex-direction: column;
   gap: 4rem;
   text-align: center;
@@ -29,7 +29,36 @@ main .count .content p {
 }
 
 main .presentation {
-  display: flex;
   width: 100%;
   justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding-inline: 0;
+  }
+
+  main .count,
+  main .presentation,
+  main .presentation .content {
+    align-items: center;
+  }
+
+  main .count img {
+    width: 47.8rem;
+  }
+
+  main .presentation {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  main .presentation img {
+    max-width: 40.8rem;
+    margin-bottom: 4.8rem;
+  }
+
+  main .presentation .content h2 {
+    max-width: 48.8rem;
+  }
 }
