@@ -1,5 +1,4 @@
 main {
-  padding-inline: 35.2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,7 +29,8 @@ main .count .content p {
 
 main .presentation {
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 20.6rem;
 }
 
 @media (max-width: 768px) {

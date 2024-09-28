@@ -1,9 +1,10 @@
 header {
   width: 100vw;
-  padding: 10.4rem 35.2rem;
+  padding-block: 35.2rem;
   background-color: var(--clr-red-100);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 12.6rem;
 }
 
 header>img {
