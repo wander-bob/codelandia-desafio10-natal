@@ -62,3 +62,31 @@ main .presentation {
     max-width: 48.8rem;
   }
 }
+
+@media (max-width: 375px) {
+  main {
+    padding-inline: 2.4rem;
+  }
+
+  main .count h1 {
+    font-size: 3.2rem;
+  }
+
+  main .count .content p {
+    font-size: 1.8rem;
+    max-width: 32.7rem;
+  }
+
+  main .count img {
+    width: 32.6rem;
+  }
+
+  main .presentation .content h2 {
+    font-size: 3.2rem;
+
+  }
+
+  main .presentation img {
+    max-width: 21.3rem;
+  }
+}

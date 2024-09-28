@@ -27,7 +27,6 @@ header>img {
   font-size: 4rem;
   font-weight: 600;
   line-height: 120%;
-
 }
 
 .content h2>span {
@@ -51,5 +50,31 @@ header>img {
   header .content {
     align-items: center;
     text-align: center;
+  }
+}
+
+@media (max-width: 375px) {
+  header {
+    padding: 9.6rem 2.4rem;
+    gap: 6.4rem;
+  }
+
+  .content h2 {
+    padding-inline: 2.8rem;
+  }
+
+  .content h2,
+  .content h2>span {
+    font-size: 3.2rem;
+
+  }
+
+  .content p {
+    font-size: 1.8rem;
+  }
+
+  header>img {
+    width: 32.6rem;
+    height: 22.1rem;
   }
 }
